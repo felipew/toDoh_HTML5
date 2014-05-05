@@ -1,0 +1,15 @@
+	<div ng-controller="IndexCtrl">
+		<div class="row row-center">
+		<!-- <button class="col button icon ion-close button-energized" ng-click="close()"></button> -->
+			<button class="col button icon ion-close button-energized" ng-click="clear()"></button>
+			<div class="col"></div>
+			<button class="col button icon ion-plus button-energized" ng-click="add()"></button>
+		</div>
+		<ul class="list">
+		    <li class="item item-icon-right" ng-class="{'done-true': todo.done }" ng-click="done(todo.id)" ng-swipe-left="remove(todo.id)" ng-swipe-right="remove(todo.id)" ng-repeat="todo in todos">
+		      {{ todo.nome }}
+		      <i ng-class="{'icon ion-checkmark': todo.done}"></i>
+		    </li>
+	    </ul>
+	    <p class="small">swipe to delete</p>
+	</div>

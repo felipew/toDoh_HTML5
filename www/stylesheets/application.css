@@ -1,0 +1,13 @@
+.done-true {
+	text-decoration: line-through;
+  	color: grey;
+}
+
+.small {
+	text-align: center;
+	font-size: 10px;
+}
+
+html, body {
+	background: #fff;
+}

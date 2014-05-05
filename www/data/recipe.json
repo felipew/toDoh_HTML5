@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Delicious Cake",
+    "description": "This is awesome.",
+    "good": true
+  },
+  {
+    "id": 2,
+    "name": "Second recipe",
+    "description": "This is also okay.",
+    "good": false
+  }
+]
