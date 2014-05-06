@@ -8,7 +8,7 @@
                 Ionic Framework   - http://ionicframework.com/
                 AppGyver Steroids - http://www.appgyver.com/
 
-  GitHub: https://github.com/felipew/toDoh_HTML5
+  GitHub: 
   Twitter: www.twitter.com/felipewagnr
 
   TODO:
