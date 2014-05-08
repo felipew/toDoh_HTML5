@@ -17,11 +17,13 @@
 
     Generic:
       Change layout to use checkbox to mark as done.
+      Add Grunt Task: Build system automagically update version 0.0.X.REVISION
 
  */
 
 // Initialize app and modules.
 var todoApp = angular.module('todoApp', ['TodoModel', 'ngTouch']);
+var appVersion = "0.0.2"; // App version. 
 
 // Global.
 var data = {}; // initialize data
@@ -187,6 +189,8 @@ todoApp.controller('AboutCtrl', function ($scope) {
   $scope.twitter = function(){
     steroids.openURL("twitter:///user?screen_name=felipewagnr");
   }
+
+  $scope.version = appVersion; // Version of the application
 });
 
 steroids.view.navigationBar.show("toDoh");
