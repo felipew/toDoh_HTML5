@@ -113,22 +113,22 @@ todoApp.controller('IndexCtrl', function ($scope, TodoRestangular) {
   var rightButton = new steroids.buttons.NavigationBarButton();
   rightButton.title = "Add";
   rightButton.onTap = function(){
-	$scope.add();
+	 $scope.add();
   }
 
   var leftButton = new steroids.buttons.NavigationBarButton();
   leftButton.title = "Clear";
   leftButton.onTap = function(){
-	$scope.clear();
+	 $scope.clear();
   }
   // END CREATING BUTTON ///////////////////////////////////////////////////////
+
+  // Set title and show
+  steroids.view.navigationBar.show("toDoh");
   steroids.view.navigationBar.setButtons({
     left:   [leftButton],
     right:  [rightButton]
   });
-
-  // Set title and show
-  steroids.view.navigationBar.show("toDoh");
   // End of Interface //////////////////////////////////////////////////////////
 
   // Load the data
